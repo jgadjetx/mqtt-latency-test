@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "mqttest",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "mqttest (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "mqttest (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Jones",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "DKTAB13NEU0006974"
+        },
+        {
+            "name": "Lidell",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "DKTAB13NEU0009831"
+        },
+        {
+            "name": "Tab3",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "DKTAB13NEU0009832"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Run Devices",
+            "configurations": ["Tab3", "Lidell","Jones"]
+        }
+    ]
+}
