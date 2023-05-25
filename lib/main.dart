@@ -193,7 +193,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
   Stream<int> _lapse({int time = -1}) {
-    return Stream.periodic(const Duration(seconds: 1), (lapse) {
+    return Stream.periodic(const Duration(milliseconds: 1), (lapse) {
       return time - lapse - 1;
     });
   }
